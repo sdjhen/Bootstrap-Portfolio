@@ -2,7 +2,7 @@
 
 body {
     font-family:'Ubuntu', sans-serif;
-    overflow: hidden;
+   background: #f7f7f7
 }
 
 nav.custom-nav {
@@ -47,4 +47,28 @@ nav.custom-nav {
     z-index: 10;
 }
     
+.imgcard {
+    height: 30vh;
+    object-fit: cover;
+}
 
+.card-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card {
+    margin: 0 auto;
+}
+
+.btn-custom {
+    width: 100%;
+}
+
+.btn-custom:hover {
+    box-shadow: 2px 2px 2px 1px #0f2862;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+    
