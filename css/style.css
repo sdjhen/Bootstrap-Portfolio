@@ -5,6 +5,8 @@ body {
    background: #f7f7f7
 }
 
+/* Navigation Styling */
+
 nav.custom-nav {
     background-color:  #002e48!important;
     display: flex;
@@ -21,6 +23,8 @@ nav.custom-nav {
     border: none;
     box-shadow: none;
 }
+
+/* Jumbotron Styling */
 
 .jumbo {
     background: url(../images/hero.jpg) no-repeat center/cover;
@@ -47,6 +51,14 @@ nav.custom-nav {
     z-index: 10;
 }
 
+/* Section Styling */
+
+#projects,
+#skills,
+#contact {
+    margin: 50px;
+}
+
 .section-heading {
     text-align: center;
     margin: 20px;
@@ -68,7 +80,7 @@ nav.custom-nav {
 
 .btn-custom {
     width: 100%;
-    background: #002e48;
+    background: #002e48 !important;
 }
 
 .btn-custom:hover {
@@ -78,8 +90,10 @@ nav.custom-nav {
     
 }
 
-.p-lead {
-    font-size: 14px;
+h4 {
+    display: inline;
+    text-align: center !important;
+    font-size: 16px
 }
 
 .icons {
@@ -89,6 +103,22 @@ align-items: center;
 justify-content: center ;
 width: 100%;
 margin: auto;
+padding: 20px;
  }
     
+.contact-img {
+    border-radius: 50% !important;
+    object-fit: cover;
+    height: 200px;
+    width: 150px;
+    margin: auto;
+    padding-top: 25px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.p-about {
+    padding-bottom: 25px;
+}
