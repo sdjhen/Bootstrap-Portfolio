@@ -46,6 +46,11 @@ nav.custom-nav {
 .jumbo * {
     z-index: 10;
 }
+
+.section-heading {
+    text-align: center;
+    margin: 20px;
+}
     
 .imgcard {
     height: 30vh;
@@ -63,12 +68,27 @@ nav.custom-nav {
 
 .btn-custom {
     width: 100%;
+    background: #002e48;
 }
 
 .btn-custom:hover {
-    box-shadow: 2px 2px 2px 1px #0f2862;
+    box-shadow: 2px 2px 2px 1px #c89666;
     transition: all 0.3s ease-in-out;
+    background: #002e48;
     
 }
 
+.p-lead {
+    font-size: 14px;
+}
+
+.icons {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center ;
+width: 100%;
+margin: auto;
+ }
     
+
